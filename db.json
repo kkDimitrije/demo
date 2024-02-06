@@ -1,8 +1,13 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "token": [
+   {
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaXNzIjoibXlBY2Nlc3NfVXNlciIsImV4cCI6MTY0NjUwMzg1OH0.YWJjMTIzNDU2Nzg5MCJ9",
+    "token_type": "Bearer",
+    "expires_in": 3600,
+    "scope": "read write",
+    "error": null,
+    "error_description": null
+}
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
